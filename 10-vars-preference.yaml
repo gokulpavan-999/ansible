@@ -14,7 +14,7 @@
    # vars:
    #   NAME: from task level
     ansible.builtin.debug:
-      msg: "NAME: {{ NAME }}"
+    #  msg: "NAME: {{ NAME }}"
 
 # 1.args or command line
 # 2.from files [course.yaml]

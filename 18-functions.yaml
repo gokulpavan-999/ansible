@@ -6,6 +6,7 @@
 
     name: "gokul pavan"
     gmail: "GOKulpavan05@gmail.com"
+    ipaddress: "19222.168.0.1"
     
     #dictionary == map
     tags:
@@ -57,6 +58,10 @@
   - name: convert lowercase 
     ansible.builtin.debug:
       msg: "{{ gmail | lower }}"
+
+  - name: check IP address or valid or not
+    ansible.builtin.debug:
+      msg: "{{ ipaddress | ansible.utils.ipv4 }}"
 
       
       

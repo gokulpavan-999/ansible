@@ -12,4 +12,6 @@
   tasks:
   - name: testing variable preferences
     vars:
-      tfromfromfrlevelfrom task level
+      NAME: from task level
+    ansible.builtin.debug:
+      msg: "NAME: {{ NAME }}"

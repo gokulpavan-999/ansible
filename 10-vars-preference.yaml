@@ -3,8 +3,8 @@
   connection: local
   vars:
     NAME: Hello Gokul
-  vars_files:
-  - course.yaml
+ # vars_files:
+ # - course.yaml
   vars_prompt:
   - name: NAME 
     prompt: what is your NAME?
@@ -17,4 +17,4 @@
       msg: "NAME: {{ NAME }}"
 
 # 1.args or command line
-# 2.
+# 2.from files [course.yaml]

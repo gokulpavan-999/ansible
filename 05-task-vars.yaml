@@ -1,6 +1,6 @@
 - name: Play level variable 
   hosts: local
-  connecting: local
+  connection: local
   vars:
     COURCE: Devops with AWS
     DURATION: 10HRS

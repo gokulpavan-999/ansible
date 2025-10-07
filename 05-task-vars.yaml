@@ -1,4 +1,4 @@
-- name: Plau levey variable 
+- name: Play level variable 
   hosts: local
   connecting: local
   vars:
@@ -8,5 +8,6 @@
   tasks:
   - name: print the course info 
     vars:
-      COURCE: ansible 
+      COURCE: aansible
+    ansible.builtin.debug:
         msg: "Course Name is: {{ COURCE }}, Duration: {{ DURATION }}, Trainer: {{ TRAINER }}"

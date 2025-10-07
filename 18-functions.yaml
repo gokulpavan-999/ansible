@@ -5,6 +5,7 @@
     technologies: DevOps, Linux, Shell, Ansible  #string
 
     name: "gokul pavan"
+    gmail: "GOKulpavan05@gmail.com"
     
     #dictionary == map
     tags:
@@ -51,7 +52,11 @@
 
   - name: convert uppercase 
     ansible.builtin.debug:
-      msg: "{{ name | upper}}"
+      msg: "{{ name | upper }}"
+
+  - name: convert lowercase 
+    ansible.builtin.debug:
+      msg: "{{ gmail | lower }}"
 
       
       

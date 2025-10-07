@@ -4,7 +4,7 @@
   vars:
     technologies: DevOps, Linux, Shell, Ansible  #string
 
-    name:"gokul pavan"
+    name: "gokul pavan"
     
     #dictionary == map
     tags:

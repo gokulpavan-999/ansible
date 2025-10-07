@@ -6,9 +6,9 @@
     Duration: 120
     is_live: true
     tools:
-    -Linux
-    -Shell
-    -Ansible
+    - Linux 
+    - Shell 
+    - Ansible 
     concepts:
       cloud: AWS
       cm: Ansible

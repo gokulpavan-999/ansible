@@ -9,4 +9,4 @@
   - name: print the course info 
     vars:
       COURCE: ansible 
-        msg: "Course Name is: {{ COURCE }}, Duration: {{ DURATION }} Trainer: {{ TRAINER }}"
+        msg: "Course Name is: {{ COURCE }}, Duration: {{ DURATION }}, Trainer: {{ TRAINER }}"

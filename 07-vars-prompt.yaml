@@ -7,4 +7,9 @@
     private: false
 
   - nane: password 
-    prompt:
+    prompt: what is your password?
+    private: true
+
+  tasks:
+  - name: print the 
+    

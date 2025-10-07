@@ -1,0 +1,12 @@
+- name: Plau levey variable 
+  hosts: local
+  connecting: local
+  vars:
+    COURCE: Devops with AWS
+    DURATION: 10HRS
+    TRAINER: Siva Kumar Reddy 
+  tasks:
+  - name: print the course info 
+    vars:
+      COURCE: ansible 
+        msg: "Course Name is: {{ COURSE }}, Duration: {{ DURATION }} Trainer: {{ TRAINER }}"
